@@ -1,0 +1,13 @@
+#include "stdafx.h"
+#include <iostream>
+#include"conio.h"
+using namspace std;
+void main()
+{
+	float edad ;
+	cout<<"ingrese su edad";
+	cin>> edad;
+	if(edad>18)
+		cout<<"puede votar";
+	getch();
+}
