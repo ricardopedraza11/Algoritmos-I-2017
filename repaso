@@ -1,0 +1,85 @@
+#include "stdafx.h"
+
+#include <iostream>
+
+#include "conio.h"
+
+#include "math.h"
+
+using namespace std;
+
+ 
+
+void main()
+
+{
+
+       int num;
+
+       cout<<"Ingrese un numero";
+
+       cin>>num;
+
+       while(num > 1){
+
+              num = num / 2;
+
+              cout<<num;
+
+       }
+
+       cout<<"El resultado de la ultima division";
+
+     
+
+        cout<<num;
+
+       getch();
+
+ 
+
+}
+
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+    int num;
+    cout<<"Ingrese un numero";
+    cin>>num;
+    do
+    {
+            num = num / 2;
+    }while(num > 1);
+    cout<<"El resultado de la ultima division";
+    cout<<num;
+    getch();
+
+}
+
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+/* muestra los números de 10 a 1 */
+#include <iostream>
+using namespace std;
+int main(void)
+{
+    int n;
+    while(n = 10000; n >=1; n--)
+    {
+        cout << n << endl;
+    }
+    getch();
+}
